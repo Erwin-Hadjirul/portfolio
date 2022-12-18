@@ -1,8 +1,6 @@
 # ![Logo](raw-data/icons/favicon.ico) My Personal Portfolio Website
 
-<!-- Developed on Year 2022. Will be badge. -->
 ![year](https://img.shields.io/badge/year-2022-blue) ![developer-level](https://img.shields.io/badge/developer--level-beginner-yellow)
-<!-- Beginner Level badge -->
 
 The owner's information about his career as Programmer and Web Developer are all included in this Simple Website.
 
