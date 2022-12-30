@@ -109,6 +109,15 @@ p.small-name-logo {
     color: #15178678;
     text-decoration: none;
 }
+.improved-link-white {
+    color: #d1cdcd;
+    text-decoration: none;
+}
+.improved-link-white:hover,
+.improved-link-white:active {
+    color: #e6e6f15e;
+    text-decoration: underline;
+}
 /* Half */
 .whole {
     width: 90%;
