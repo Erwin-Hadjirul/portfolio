@@ -38,7 +38,9 @@
         </ul>
     </nav>
 
-    <header><h1>About Me</h1></header>
+    <header>
+        <h1>About Me</h1>
+    </header>
 
     <main>
         <!-- Introduction Section -->
@@ -53,15 +55,15 @@
                     <span class="text-violet">C#</span> is my Native Programming Language
                 </h1>
                 <h1 class="text-white">
-                    I love Colors 
+                    I love Colors
                     <span class="text-red">R</span><span class="text-green">G</span><span class="text-blue">B</span>
                 </h1>
                 <h1 class="text-white">
-                    I sometimes call myself 
+                    I sometimes call myself
                     <span class="text-blue">Air</span><span style="color: #687d9b;">Wind</span>
                 </h1>
                 <h1 class="text-white">
-                    I love Animal 
+                    I love Animal
                     <span class="text-red">Eagle</span>
                 </h1>
                 <h1 class="text-white">
@@ -74,7 +76,7 @@
             </div>
         </div>
         <p class="quote">
-            Computer Science Degree Holder that is passionate to Programming, 
+            Computer Science Degree Holder that is passionate to Programming,
             looking to transition into real-world Programming profession.
         </p>
 
@@ -93,7 +95,7 @@
                 </div>
             </a>
             <a class="card" href="services.html#desktopAppDeveloper">
-                <div class="card-image" style="background: url(raw-data/img/cs.png);"></div>
+                <div class="card-image" style="background: url(raw-data/img/cs.png); background-size: contain;"></div>
                 <div class="card-content">
                     <div class="card-title">Computer Application Development</div>
                     <div class="card-snippet">
@@ -105,18 +107,36 @@
             </a>
         </section>
 
-        <!-- Experience Section
+        <!-- Experience Section -->
         <h2 class="text-white">Experiences</h2>
-        <section class="cards"></section> -->
+        <section class="cards">
+            <a class="card" href="exp-pages/1yr-pbts.html">
+                <div class="card-image"
+                    style="background-image: url(raw-data/img/exp/pbts.png); background-size: contain;"></div>
+                <div class="card-content">
+                    <div class="card-title">PBTS (Pro Board Technology Services) &mdash; Cavite</div>
+                    <div class="card-snippet">
+                        <p><span class="bold">Role:</span> Software Support/Programmer</p>
+                        <p><span class="bold">Short Description:</span>
+                            Supporting and Deploying Software Systems.
+                            Also, helping Senior Developer to develop Systems.
+                        </p>
+                    </div>
+                    <div class="card-readmore">
+                        <p>January - June, 2023</p>
+                    </div>
+                </div>
+            </a>
+        </section>
 
         <!-- Education Section -->
         <h2 class="text-white">Educational Background</h2>
         <section class="cards">
-            <a class="card" href="EducationPages/college.html">
+            <a class="card" href="edu-pages/college.html">
                 <div class="card-image" style="background-image: url(raw-data/img/msusulu-bg.jpg);"></div>
                 <div class="card-content">
-                    <div class="card-title">Mindanao State University &mdash;Sulu, 
-                    College of Computer Studies Department</div>
+                    <div class="card-title">Mindanao State University &mdash;Sulu,
+                        College of Computer Studies Department</div>
                     <div class="card-snippet">
                         <p><span class="bold">Role:</span> Bachelor of Science in Computer Science</p>
                         <p><span class="bold">GPA:</span> 1.77</p>
@@ -126,11 +146,11 @@
                     </div>
                 </div>
             </a>
-            <a class="card" href="EducationPages/shs.html">
+            <a class="card" href="edu-pages/shs.html">
                 <div class="card-image" style="background-image: url(raw-data/img/msusulu-sh-bg.jpg);"></div>
                 <div class="card-content">
-                    <div class="card-title">Mindanao State University &mdash;Sulu, 
-                    Senior High School Department</div>
+                    <div class="card-title">Mindanao State University &mdash;Sulu,
+                        Senior High School Department</div>
                     <div class="card-snippet">
                         <p><span class="bold">Role:</span> Senior High School Student</p>
                     </div>
@@ -139,18 +159,18 @@
                     </div>
                 </div>
             </a>
-            <a class="card" href="EducationPages/hs.html">
+            <a class="card" href="edu-pages/hs.html">
                 <div class="card-image" style="background-image: url(raw-data/img/smii-hs-bg.jpg);"></div>
                 <div class="card-content">
-                    <div class="card-title">Southwestern Mindanao Islamic Institute, 
-                    High School Department</div>
+                    <div class="card-title">Southwestern Mindanao Islamic Institute,
+                        High School Department</div>
                     <div class="card-snippet">
                         <p><span class="bold">Role:</span> High School Student</p>
                     </div>
                     <div class="card-readmore">2012 &ndash; 2016</div>
                 </div>
             </a>
-            <a class="card" href="EducationPages/elem.html">
+            <a class="card" href="edu-pages/elem.html">
                 <div class="card-image" style="background-image: url(raw-data/img/htases-bg.jpg);"></div>
                 <div class="card-content">
                     <div class="card-title">Hadja Taiba Abubakar Schuck Elementary School</div>
@@ -166,7 +186,9 @@
         <h2 class="text-white">Personal Projects</h2>
         <section class="cards">
             <a class="card" href="projects.html#portfolio">
-                <div class="card-image" style="background-image: url(raw-data/icons/android-chrome-512x512.png);"></div>
+                <div class="card-image"
+                    style="background-image: url(raw-data/icons/android-chrome-512x512.png); background-size: contain;">
+                </div>
                 <div class="card-content">
                     <div class="card-title">Erwin Hadjirul Portfolio Website</div>
                     <div class="card-snippet">
@@ -178,48 +200,60 @@
                 </div>
             </a>
             <a class="card" href="projects.html#calculator">
-                <div class="card-image" style="background-image: url(raw-data/icons/android-chrome-512x512-calculator.png);"></div>
+                <div class="card-image"
+                    style="background-image: url(raw-data/icons/android-chrome-512x512-calculator.png); background-size: contain;">
+                </div>
                 <div class="card-content">
                     <div class="card-title">Calculator Online</div>
                     <div class="card-snippet">
-                        <p><span class="bold">Short Description:</span> 
-                            The idea behind the web app is to create a one Application for all kind of Calculator existed...
+                        <p><span class="bold">Short Description:</span>
+                            The idea behind the web app is to create a one Application for all kind of Calculator
+                            existed...
                         </p>
                     </div>
                     <div class="card-readmore">2022</div>
                 </div>
             </a>
             <a class="card" href="projects.html#guess-game">
-                <div class="card-image" style="background-image: url(raw-data/icons/android-chrome-512x512-guess.png);"></div>
+                <div class="card-image"
+                    style="background-image: url(raw-data/icons/android-chrome-512x512-guess.png); background-size: contain;">
+                </div>
                 <div class="card-content">
                     <div class="card-title">Guess The Hidden Character Game</div>
                     <div class="card-snippet">
-                        <p><span class="bold">Short Description:</span> 
-                            When the user first fires up the app, it will show the title/logo of the app and prompt the user...
+                        <p><span class="bold">Short Description:</span>
+                            When the user first fires up the app, it will show the title/logo of the app and prompt the
+                            user...
                         </p>
                     </div>
                     <div class="card-readmore">2022</div>
                 </div>
             </a>
             <a class="card" href="projects.html#student-management-cli">
-                <div class="card-image" style="background-image: url(raw-data/icons/android-chrome-512x512-student.png);"></div>
+                <div class="card-image"
+                    style="background-image: url(raw-data/icons/android-chrome-512x512-student.png); background-size: contain;">
+                </div>
                 <div class="card-content">
                     <div class="card-title">Student Record Management</div>
                     <div class="card-snippet">
-                        <p><span class="bold">Short Description:</span> 
-                            The app starts directly with its logo name and menu stacked together, while the system prompting...
+                        <p><span class="bold">Short Description:</span>
+                            The app starts directly with its logo name and menu stacked together, while the system
+                            prompting...
                         </p>
                     </div>
                     <div class="card-readmore">2022</div>
                 </div>
             </a>
             <a class="card" href="projects.html#numsys-c">
-                <div class="card-image" style="background-image: url(raw-data/img/my-proj/numsys-c/20.jpg);"></div>
+                <div class="card-image"
+                    style="background-image: url(raw-data/img/my-proj/numsys-c/20.jpg); background-size: contain;">
+                </div>
                 <div class="card-content">
                     <div class="card-title">NumSys-C</div>
                     <div class="card-snippet">
-                        <p><span class="bold">Short Description:</span> 
-                            The app has the following features: Dark Mode; Offline, No Ads and Free; Easy to Understand and Use...
+                        <p><span class="bold">Short Description:</span>
+                            The app has the following features: Dark Mode; Offline, No Ads and Free; Easy to Understand
+                            and Use...
                         </p>
                     </div>
                     <div class="card-readmore">2022</div>
@@ -231,11 +265,12 @@
         <h2 class="text-white">Licences and Certifications</h2>
         <section class="cards">
             <a class="card" href="raw-data/img/new-journey/dict-php-training.jpg" target="_blank">
-                <div class="card-image" style="background-image: url(raw-data/img/new-journey/dict-php-training.jpg);"></div>
+                <div class="card-image" style="background-image: url(raw-data/img/new-journey/dict-php-training.jpg);">
+                </div>
                 <div class="card-content">
                     <div class="card-title">DICT Web Development Training Certificate of Participation</div>
                     <div class="card-snippet">
-                        <p><span class="bold">Short Description:</span> 
+                        <p><span class="bold">Short Description:</span>
                             It is a 2-day or approximately 16-hour awesome PHP Programming Language Training.
                         </p>
                     </div>
@@ -254,8 +289,8 @@
             <p class="text-white text-center">Tausug</p>
             <p class="text-white text-center">Filipino</p>
             <p class="text-white text-center">English</p>
-        <hr class="copyright-line">
-    </section>
+            <hr class="copyright-line">
+        </section>
     </main>
 
     <footer class="footer">
@@ -264,14 +299,16 @@
                 <img class="logo" height="50px" src="raw-data/img/icon.png" alt="Erwin Hadjirul">
             </div>
             <div class="col">
-                <h3>Address <div class="underline"><span></span></div></h3>
+                <h3>Address <div class="underline"><span></span></div>
+                </h3>
                 <p>Brgy. Takut-takut</p>
                 <p>Jolo, Sulu, Philippines</p>
                 <p class="email"><a href="mailto:erwinhadjirul15@gmail.com">erwinhadjirul15@gmail.com</a></p>
                 <h4>+63981-618-1943</h4>
             </div>
             <div class="col">
-                <h3>Social Medias <div class="underline"><span></span></div></h3>
+                <h3>Social Medias <div class="underline"><span></span></div>
+                </h3>
                 <div class="social-icons">
                     <a target="_blank" href="https://github.com/Erwin-Hadjirul">
                         <img height="20px" src="raw-data/svg/Github - Colorful.svg">
@@ -283,7 +320,7 @@
             </div>
         </div>
         <hr class="copyright-line">
-        <p class="text-center">&copy; 2022 - Erwin Hadjirul - Personal Portfolio</p>
+        <p class="text-center">&copy; 2023 - Erwin Hadjirul - Personal Portfolio</p>
     </footer>
 
 </body>
