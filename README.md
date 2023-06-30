@@ -21,8 +21,7 @@ This is a Website developed with Full Static Files containing __HTML__, __CSS__,
 2. The Footer specifies the addresses, social medias and the copyright owner of the owner for some informational purposes.
 
 3. In the Home Section, the name and the picture of the owner of this Website are present. There is a button below the Name,
-written _Hire Me_, clicking it would redirect the control to Email App. That will lead to the explanation of primary reason for developing this
-website. At the back of the picture of owner of the website shows the Primary
+written _Hire Me_, clicking it would redirect the control to Email App. At the back of the picture of owner of the website shows the Primary
 Programming Language the owner uses in his Programming Career.
 
 4. In the Services Section showcases the services offered by the owner as a Programmer with proof of every service.
