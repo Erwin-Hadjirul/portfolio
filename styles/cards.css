@@ -5,6 +5,7 @@
     gap: 1.5rem;
     justify-content: center;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -19,31 +20,37 @@
     font-size: 1rem;
     transition: all 200ms ease-in-out;
 }
+
 .card:hover {
     transform: translateY(-1rem);
     box-shadow: 6px 3px 18px rgba(#180d0d, 0.4);
 }
+
 .card-image {
     flex: 0 0 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .card-content {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     height: 100%;
 }
+
 .card-title {
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
+
 .card-snippet {
     margin-bottom: 1.5rem;
     margin-top: auto;
 }
+
 .card-readmore {
     text-transform: uppercase;
     text-align: center;
