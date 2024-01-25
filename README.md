@@ -4,6 +4,8 @@
 
 ![year](https://img.shields.io/badge/year-2023-blue) ![developer-level](https://img.shields.io/badge/developer--level-mid--level-green)
 
+![year](https://img.shields.io/badge/year-2024-blue) ![developer-level](https://img.shields.io/badge/developer--level-mid--level-green)
+
 The owner's information about his career as a programmer and web developer is all included in this simple website.
 
 This is his ***first time*** developing a website. That's why copying the source code from this repository (of this website) is not appropriate.
